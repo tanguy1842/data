@@ -2,7 +2,7 @@ from flask import Flask,render_template
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return '<h1>Hello Ruk-com </h1>'
+    return '<h1>Hello Ruk-com is Great</h1>'
 @app.route('/home',methods=['GET','POST'])
 def home():
     links = ['http://ruk-com.in.th','https://www.bing.com',
